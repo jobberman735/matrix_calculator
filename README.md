@@ -1,3 +1,5 @@
-# matrix
-здесь описание на русском и английском
-описать всё про этот калькулятор и его историю разработки
+# Matrix Calculator 
+This calculator performs basic operations with matrices.
+Developed in December 2020.
+
+
