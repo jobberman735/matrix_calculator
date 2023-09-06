@@ -1,0 +1,142 @@
+QMainWindow {
+  background-color: white;
+}
+
+QPushButton {
+  color: black;
+  background-color: #55B9FF;
+}
+
+QLabel {
+  color: black;
+}
+
+QSpinBox {
+  color: black;
+}
+
+QMenuBar {
+  color: black;
+  background-color: white;
+}
+
+QMenu {
+  color: black;
+  background-color: white;
+}
+
+QTableWidget {
+  color: black;
+  background-color: white;
+  gridline-color: black;
+}
+
+QScrollBar:vertical {
+    border: none;
+    background-color: white;
+    width:14px;
+    margin: 15px 0 15px 0;
+    border-radius: 0px;
+}
+QScrollBar::handle:vertical {
+    background-color: #50b9ff;
+    min-height: 30px;
+    border-radius: 7px;
+}
+QScrollBar::handle:vertical:hover{
+    background-color: black;
+}
+QScrollBar::handle:vertical:pressed{
+    background-color: black;
+}
+QScrollBar::sub-line:vertical{
+    border: none;
+    background-color: #50b9ff;
+    height:15px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+QScrollBar::sub-line:vertical:hover{
+    background-color: black;
+}
+QScrollBar::sub-line:vertical:pressed{
+    background-color: black;
+}
+QScrollBar::add-line:vertical{
+    border: none;
+    background-color: #50b9ff;
+    height:15px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+QScrollBar::add-line:vertical:hover{
+    background-color: black;
+}
+QScrollBar::add-line:vertical:pressed{
+    background-color: black;
+}
+QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical{
+    background: none;
+}
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical{
+    background: none;
+}
+
+QScrollBar:horizontal {
+    border: none;
+    background-color: white;
+    height:14px;
+    margin: 0 15px 0 15px;
+    border-radius: 0px;
+}
+QScrollBar::handle:horizontal {
+    background-color: #50b9ff;
+    min-width: 30px;
+    border-radius: 7px;
+}
+QScrollBar::handle:horizontal:hover{
+    background-color: black;
+}
+QScrollBar::handle:horizontal:pressed{
+    background-color: black;
+}
+QScrollBar::sub-line:horizontal{
+    border: none;
+    background-color: #50b9ff;
+    width:15px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}
+QScrollBar::sub-line:horizontal:hover{
+    background-color: black;
+}
+QScrollBar::sub-line:horizontal:pressed{
+    background-color: black;
+}
+QScrollBar::add-line:horizontal{
+    border: none;
+    background-color: #50b9ff;
+    width:15px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+}
+QScrollBar::add-line:horizontal:hover{
+    background-color: black;
+}
+QScrollBar::add-line:horizontal:pressed{
+    background-color: black;
+}
+QScrollBar::up-arrow:horizontal, QScrollBar::down-arrow:horizontal{
+    background: none;
+}
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal{
+    background: none;
+}
